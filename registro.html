@@ -4,43 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/barradenav.png">
 </head>
 <body>
-    <h1>Aula 15 - Formulários</h1>
-    <form action="#">
-        <fieldset>
-            <legend>Dados Básicos</legend>
-            <label for="usuario">Nome</label>
-            <input type="text" id="nome" name="nome-usuario" placeholder="João da Silva">
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" name="tel-usuario" placeholder="(63) 9 1234-5678">
-            <p>Tipo de Documento</p>
-            <div>
-                <input type="radio" id="doc-rg" name="doc-usuario">
-                <label for="doc-rg" class="label-radio">RG</label>
-            </div>
-            <div>
-                <input type="radio" id="doc-cpf" name="doc-usuario">
-                <label for="doc-cpf" class="label-radio">CPF</label>
-            </div>
-            <input type="file" id="doc" name="documento-arquivo">
-            <label for="data-nasc">Data de Nascimento</label>
-            <input type="date" id="data-nasc">
-        </fieldset>
-        <fieldset>
-            <legend>Linguagens</legend>
-            <input type="checkbox">
-        </fieldset>
-        <fieldset>
-            <select name="cidade-usuario" id="cidade">
-                <option value="0" selected disabled>Selecione seu Estado</option>
-                <option value="TO">Tocatins</option>
-                <option value="GO">Goiás</option> 
-            </select>
-        </fieldset>
-        <p>Não possui conta? <a href="./registro.html">Registre-se</a></p>
-    </form>
+    <form action="">
+    <fieldset>
+    
+    <img src="img/faixamenor.png" alt="">
+    <img src="img/desc.png" alt="">
+    <img src="img/faixa azul.png" alt="">
+
+    <legend>Registro</legend>
+    <label for="usuario">Nome</label>
+    <input type="text" id="nome" name="nome-usuario" placeholder="Nome e Sobrenome">
+    <input type="email" id="email" name="email" placeholder="email">
+    <input type="password" id="password" name="password" placeholder="•••••••••">
+    
+</fieldset>
+<fieldset>
+    <div class=".btn::before">
+    <select name="cidade-usuario" id="cidade">
+        <option value="0" selected disabled>Selecione seu País</option>
+        <option value="AB">Abecásia</option>
+        <option value="AF">Afeganistão</option> 
+        <option value="AL">Albânia</option>
+        <option value="BR">Brasil</option>
+        <input type="button" value="Registrar">
+        <button>Limpar</button>
+        <p>Já possui uma conta? <a href="./contato.html">ENTRAR</a></p>
+    </div>
+    </select>
+</fieldset>
+</form>
+
+
+    
 </body>
 </html>

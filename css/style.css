@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(#1a1919,#141313);
+    
 }
 .login-box {
 position:absolute;
@@ -32,5 +32,55 @@ background: #8dbfd3;
 box-shadow: 0px 4px 4px rgb(49, 46, 46);
 
  }
+ .logo-rodape{
+    position: absolute;
+width: 1443px;
+height: 61px;
+left: -3px;
+top: 1055px;
+font-family: sans-serif;
 
+background: #00669F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+.btn::before,
+.btn::after{
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+ }
+.btn::after{ 
+    background-color: #292929;
+}
+.btn::before{ 
+ background-image: -o-linear-gradient(to bottom right,#aeffb9 0%,#a091ff 100%);
+    transition: transform 200ms;
 
+}
+.btn:hover::before,
+.btn:focus::before{
+    transform: scale(1.1);
+}
+div.dois {
+    margin: 0%;
+width: 620px;
+height: 251px;
+left: 410px;
+top: 511px;
+
+background: #FFFFFF;
+border: 1.53407px solid #000000;
+box-sizing: border-box;
+;
+    }
+    /* Cards */
+
+.cards{ 
+position: absolute;
+width: 1020px;
+height: 533px;
+left: 210px;
+top: 318px;
+ }
